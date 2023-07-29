@@ -1,1 +1,1 @@
-# nowandb_Diffusion-Models-pytorch-module-compile-yaml
+# Diffusion-Models-pytorch-module

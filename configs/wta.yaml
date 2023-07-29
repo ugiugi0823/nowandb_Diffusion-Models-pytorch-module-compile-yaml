@@ -1,0 +1,19 @@
+DATA:
+  run_name: ddpm_wta_test
+  dataset_path: /media/oem/VCL_8TB1/VCL/Hyunwook/Data/wta_no_mask
+  num_classes: 3
+  image_size: 1024
+  day: ddpm_wta_day
+
+MODEL:
+  unet: UNet_conditional
+  ema: EMA
+
+TRAIN:
+  batch_size: 2
+  device: cuda
+  epochs: 2
+  lr: 0.0003
+  multigpu: false
+  scheulder: false
+  seed: 111
